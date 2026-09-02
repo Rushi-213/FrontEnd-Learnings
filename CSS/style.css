@@ -1,0 +1,53 @@
+/* Page Container */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: skyblue;
+}
+
+h1 {
+    font-size: 1.5rem;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 8px;
+}
+
+/* Labels & Inputs */
+label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Override width for small inputs */
+input[type="checkbox"],
+input[type="radio"],
+input[type="color"]{
+    width: auto;
+}
+
+/* Buttons */
+button,
+input[type="submit"] {
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 10px;
+}
+
+button:hover,
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
