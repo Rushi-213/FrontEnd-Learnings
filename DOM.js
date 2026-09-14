@@ -60,3 +60,4 @@ function abc() {
     // element5=document.getElementsByTagName("h1").style.color="green";
     //console.log(element5);
 }
+
