@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function sum() {
+            console.log(arguments);
+            sums = 0;
+            for (let i in arguments) {
+                sums += arguments[i];
+            }
+            document.write(sums);
+        }
+
+        sum(20, 30);
+        sum(10, 20, 30);
+
+        function rest(name, ...args) {
+            document.write(name)
+            console.log(arguments);
+            sums = 0;
+            for (let i in arguments) {
+                sums += arguments[i];
+            }
+            document.write(sums);
+        }
+
+        rest("hello js", 20, 30);
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html>

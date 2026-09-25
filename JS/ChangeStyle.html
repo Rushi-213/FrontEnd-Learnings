@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<script>
+
+function changeStyleByID(){
+    var Element = document.getElementById("title");
+    Element.style.backgroundColor="blue";
+    Element.style.color="pink";
+    Element.style.border="5px solid green"
+
+}
+
+function changeStyleByClassName() {
+    var Element1 = document.getElementsByClassName("list");
+    for(let i=0; i<Element1.length;i++){
+        Element1.style.backgroundColor = "blue";
+        Element1.style.color = "pink";
+        Element1.style.border = "5px solid green"
+    }
+
+}
+
+
+</script>
+
+<body>
+    <h1 id="title">Change style using getElementById</h1>
+    <button onclick="changeStyleByID()">Click me</button>
+
+    <h1>Change style using getElementByClassName</h1>
+    <p class="list">java</p>
+    <p class="list">html</p>
+    <p class="list">js</p>
+    <p class="list">database</p>
+    <button onclick="changeStyleByClassName()">Click me</button>
+
+    <h1>Change style using getElementByTagName</h1>
+
+    
+</body>
+</html>
