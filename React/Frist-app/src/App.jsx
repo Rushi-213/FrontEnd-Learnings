@@ -20,6 +20,9 @@ function App() {
     alert('Goodbye, this is a message from the App component!');
   }
 
+  function countIncrement() {
+    c
+  }
   return (
     <>
      {/* <Arrayobj />
@@ -41,9 +44,8 @@ function App() {
 
       <Button lable="Click Me" handleClick={msg} />
       <Button lable="Say Goodbye" handleClick={byemsg} />  */} 
-
     </>
   )
 }
 
-export default App
+export default App  
